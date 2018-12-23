@@ -1,0 +1,18 @@
+[GENERAL]
+msg_in = /var/opt/carrierpigeon/in
+msg_out = /var/opt/carrierpigeon/out
+whitelist = /var/opt/carrierpigeon/whitelist
+
+[CREDENTIALS]
+username = 
+password = 
+
+[IMAP]
+host = imap.gmail.com
+ssl = True
+port = 993
+
+[SMTP]
+host = smtp.gmail.com
+ssl = True
+port = 465
