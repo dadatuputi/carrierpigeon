@@ -1,0 +1,16 @@
+general:
+  log: /var/opt/carrierpigeon/log
+  messages: /var/opt/carrierpigeon/messages
+  whitelist: /var/opt/carrierpigeon/whitelist
+
+
+email:
+  polling: 30
+  imap:
+    host: imap.gmail.com
+    ssl: True
+    port: 993
+  smtp:
+    host: smtp.gmail.com
+    ssl: True
+    port: 465
